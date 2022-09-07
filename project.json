@@ -1,0 +1,120 @@
+{
+  "name": "orange-payment-mix-calculation",
+  "description": "Reads and processes an excel file to save it in three separate excel reports and several pdf charts, one per each company in the input excel file.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ce2fd20a-a18c-4915-b825-253ac626d62f",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "885e6763-7bc5-44b5-85c7-db37236258c4",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "761b3b84-0deb-4ad7-9f76-ab1333d5868f",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "21304824-79e1-4ca0-80c4-0f69c7393803",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "98a67f2a-5c83-4bf8-9af1-5a84c40670ca",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5894ac77-881b-4598-8a9b-c590e20673b9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e1fb7b51-42a2-4a53-a45a-e7c06ec7e951",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b585236f-2526-410f-81c7-27e102f5c96a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_ReadInputFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f3c24ca0-7284-4dbd-a1f3-b60df1e4a107",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_FilterInputFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b5893ace-1947-4933-8697-2081f0a39228",
+        "testCaseType": "TestCase",
+        "fileName": "DataLayer\\TestCase_GenerateOutputCompanii.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "601d0ef8-b335-4e72-8c0d-d9aaf23fd634",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
