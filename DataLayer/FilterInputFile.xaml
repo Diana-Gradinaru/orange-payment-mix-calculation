@@ -74,9 +74,11 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Filters the data in the input excel file as such:&#xA;- removes rows in columns &quot;CM MATERNITATE&quot; and &quot;CM RISC MATERNAL&quot; where the value is greater than 0&#xA;- remove rows in column &quot;NR ORE LUNA&quot; where the value is 0&#xD;&#xA;- only keep a limited number of columns" DisplayName="FilterInputFile" sap:VirtualizedContainerService.HintSize="558.4,886.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Filters the data in the input excel file as such:&#xA;- removes rows in columns &quot;CM MATERNITATE&quot; and &quot;CM RISC MATERNAL&quot; where the value is greater than 0&#xA;- remove rows in column &quot;NR ORE LUNA&quot; where the value is 0&#xA;- only keep a limited number of columns" DisplayName="FilterInputFile" sap:VirtualizedContainerService.HintSize="558.4,886.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -159,6 +159,21 @@
         "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
+    },
+    {
+      "Package": {
+        "Id": "BalaReva.Excel.Activities",
+        "Version": "2021.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib/BalaReva.Excel.Base.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib/BalaReva.Excel.Design.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib/BalaReva.Excel.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib/BalaReva.Excel.Utilities.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoftofficecore\\15.0.0\\lib/net35/Office.dll"
+      ],
+      "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
     }
   ],
   "Conflicts": [],
@@ -167,6 +182,20 @@
       "Id": "AutoMapper",
       "Version": "9.0.0",
       "Dependencies": []
+    },
+    "BalaReva.Excel.Activities": {
+      "Id": "BalaReva.Excel.Activities",
+      "Version": "2021.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Office.Interop.Excel",
+          "Item2": "[15.0.4795.1000, )"
+        },
+        {
+          "Item1": "MicrosoftOfficeCore",
+          "Item2": "[15.0.0, )"
+        }
+      ]
     },
     "ClosedXML": {
       "Id": "ClosedXML",
@@ -543,6 +572,11 @@
         }
       ]
     },
+    "Microsoft.Office.Interop.Excel": {
+      "Id": "Microsoft.Office.Interop.Excel",
+      "Version": "15.0.4795.1000",
+      "Dependencies": []
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -575,6 +609,11 @@
     "Microsoft.VisualStudio.OLE.Interop": {
       "Id": "Microsoft.VisualStudio.OLE.Interop",
       "Version": "16.7.30328.74",
+      "Dependencies": []
+    },
+    "MicrosoftOfficeCore": {
+      "Id": "MicrosoftOfficeCore",
+      "Version": "15.0.0",
       "Dependencies": []
     },
     "Newtonsoft.Json": {
@@ -1089,6 +1128,19 @@
     },
     {
       "Package": {
+        "Id": "BalaReva.Excel.Activities",
+        "Version": "2021.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Base.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Design.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.dll",
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0\\lib\\BalaReva.Excel.Utilities.dll"
+      ],
+      "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\balareva.excel.activities\\2021.0.0"
+    },
+    {
+      "Package": {
         "Id": "ClosedXML",
         "Version": "0.87.1"
       },
@@ -1367,6 +1419,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Office.Interop.Excel",
+        "Version": "15.0.4795.1000"
+      },
+      "Assemblies": [
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\lib\\net20\\Microsoft.Office.Interop.Excel.dll"
+      ],
+      "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Rest.ClientRuntime",
         "Version": "2.3.21"
       },
@@ -1404,6 +1466,16 @@
         "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib\\net45\\Microsoft.VisualStudio.OLE.Interop.dll"
       ],
       "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74"
+    },
+    {
+      "Package": {
+        "Id": "MicrosoftOfficeCore",
+        "Version": "15.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoftofficecore\\15.0.0\\lib\\net35\\Office.dll"
+      ],
+      "Path": "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoftofficecore\\15.0.0"
     },
     {
       "Package": {

@@ -3,6 +3,7 @@
   "description": "Reads and processes an excel file to save it in three separate excel reports and several pdf charts, one per each company in the input excel file.",
   "main": "Main.xaml",
   "dependencies": {
+    "BalaReva.Excel.Activities": "[2021.0.0]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.System.Activities": "[22.4.4]",
     "UiPath.Testing.Activities": "[22.4.3]",
@@ -99,10 +100,16 @@
         "editingStatus": "InProgress",
         "testCaseId": "b5893ace-1947-4933-8697-2081f0a39228",
         "testCaseType": "TestCase",
-        "fileName": "DataLayer\\TestCase_GenerateOutputCompanii.xaml"
+        "fileName": "Tests\\DataLayer\\TestCase_GenerateOutputCompanii.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3ec10ad9-fb2c-446e-9f66-41c7f6ae3184",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_DeleteFileIfExists.xaml"
       }
     ],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
