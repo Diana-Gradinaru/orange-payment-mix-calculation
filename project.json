@@ -6,8 +6,7 @@
     "BalaReva.Excel.Activities": "[2021.0.0]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.System.Activities": "[22.4.4]",
-    "UiPath.Testing.Activities": "[22.4.3]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]"
+    "UiPath.Testing.Activities": "[22.4.3]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -107,6 +106,42 @@
         "testCaseId": "3ec10ad9-fb2c-446e-9f66-41c7f6ae3184",
         "testCaseType": "TestCase",
         "fileName": "Tests\\DataLayer\\TestCase_DeleteFileIfExists.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "146d29cf-4fa2-4768-9a40-9a2ccea08c9e",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetMinMaxMedRows.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8226c9ae-9d19-412b-b123-467b78700297",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetArraysDepartamenteSubdepartamenteFunctii.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4c9d39b1-4b6c-4c82-b629-bde87aa9e155",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetRowsSubdepartamente.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "98e8f561-9012-4c6e-8a67-d65a42548fd8",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetRowsPerCui.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3930506c-905c-421c-ac8c-287aff96d4f5",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetRowsFunctii.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c6fe9ccc-9c6e-4162-aa55-83e9207d2320",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DataLayer\\TestCase_GetRowsDepartamente.xaml"
       }
     ],
     "modernBehavior": false

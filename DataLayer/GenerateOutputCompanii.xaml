@@ -88,9 +88,7 @@
   <Sequence sap2010:Annotation.AnnotationText="Generates the excel file &quot;companii.xlsx&quot; which takes the file &quot;stat de plata extins.xlsx&quot; as input and creates a sheet for each CUI found in the file. CUI row can be blank." DisplayName="GenerateOutputCompanii" sap:VirtualizedContainerService.HintSize="1112.8,1487.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="arrayCui" />
-      <Variable x:TypeArguments="ui:WorkbookApplication" Name="excelWorkbook" />
       <Variable x:TypeArguments="ui:WorkbookApplication" Name="workbook" />
-      <Variable x:TypeArguments="x:Boolean" Name="booleanFileExists" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">

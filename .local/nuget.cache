@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YB4yNrvej7l1oURzetS4yJQTluTyt1gfSUkPx9SAcnWjzCxYTGhbT+xemUI+ZxxbZou8/D6CGYqg1q4yWsYKug==",
+  "dgSpecHash": "mEamnnHvE5EmLeQLjlodorSw1+NZ1u1O3k85C0WlqYJPTZD6mpUqvoUn+T+Ig/Bjmin1q+V0sNvlYT18tAS1DA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DianaGradinaru\\OneDrive - Future Work Force\\Documents\\POCs\\Orange\\Repo\\orange-payment-mix-calculation\\.local\\",
   "expectedPackageFiles": [
@@ -18,7 +18,6 @@
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\microsoft.aspnetcore.signalr.client.core.3.1.6.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\microsoft.aspnetcore.signalr.common.3.1.6.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\microsoft.aspnetcore.signalr.protocols.json.3.1.6.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
@@ -36,14 +35,11 @@
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\microsoft.rest.clientruntime.azure.3.3.18.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\microsoft.visualstudio.ole.interop.16.7.30328.74.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\microsoftofficecore\\15.0.0\\microsoftofficecore.15.0.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\nlog\\4.5.11\\nlog.4.5.11.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -63,18 +59,11 @@
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\system.threading.tasks.dataflow.5.0.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath\\22.4.42.61951\\uipath.22.4.42.61951.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3\\uipath.activities.runtimegovernance.1.1.3.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.excel.activities\\2.12.3\\uipath.excel.activities.2.12.3.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\uipath.imageprocessing.22.4.1.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\uipath.ocr.activities.3.6.2.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\uipath.ocr.contracts.2.11.0.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.platform\\22.4.1\\uipath.platform.22.4.1.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.system.activities\\22.4.4\\uipath.system.activities.22.4.4.nupkg.sha512",
     "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\uipath.testing.activities.22.4.3.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\uipath.uiautomation.activities.22.4.7.nupkg.sha512",
-    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.vision\\3.3.0\\uipath.vision.3.3.0.nupkg.sha512"
+    "C:\\Users\\DianaGradinaru\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\uipath.testing.activities.22.4.3.nupkg.sha512"
   ],
   "logs": []
 }
